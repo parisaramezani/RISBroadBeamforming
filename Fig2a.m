@@ -1,6 +1,6 @@
 clear
 close all
-[u,v] = wlanGolaySequence(32);
+[u,v] = wlanGolaySequence(32); % Golay sequence pair of length 32
 acfu = xcorr(u);
 acfv = xcorr(v);
 acftotal = acfu + acfv;
